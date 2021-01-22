@@ -1,0 +1,21 @@
+package jan22;
+
+import java.util.Scanner;
+
+public class PrimeNumber {
+
+	public static void main(String[] args) {
+		System.out.println("Enter the number to check if it is prime number: ");
+		Scanner sc = new Scanner(System.in);
+		int i, count=0, num = sc.nextInt();
+		if(num%2 == 0 && num!=2)
+			System.out.println("the number "+num+" is not a prime number!!!");
+		else {
+			for(i=1;i<num/2;i+=2) {
+				if(num%i == 0)
+					count++;
+			}
+		}
+	}
+
+}

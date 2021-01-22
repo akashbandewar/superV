@@ -1,0 +1,20 @@
+package jan22;
+
+import java.util.Scanner;
+
+public class Factorial {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a Number :");
+		int num = sc.nextInt();
+		int res;
+		while(num>1) {
+			res = num * (num-1);
+			num--;
+		}
+		System.out.println("Factorial is: "+res);
+
+	}
+
+}
