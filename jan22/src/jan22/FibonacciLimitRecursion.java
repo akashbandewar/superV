@@ -9,7 +9,7 @@ public class FibonacciLimitRecursion {
 	static int c;
 	
 	static void fibonacci(int num) {
-		if(num>a) {
+		if(num>=a) {
 			System.out.println(a+" ");
 			c = a + b;
 			a = b;

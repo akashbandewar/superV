@@ -1,0 +1,26 @@
+package jan22;
+
+import java.util.Scanner;
+
+public class PrimeNumberRange {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter 2 numbers");
+		int begin = sc.nextInt();
+		int end = sc.nextInt();
+		int temp;
+		if(begin>end) {
+			temp = begin;
+			begin = end;
+			end = temp;
+		}
+		temp=1;
+		do {
+			
+		}while(temp<=end/2)
+		sc.close();
+
+	}
+
+}
